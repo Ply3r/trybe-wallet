@@ -8,8 +8,8 @@ function App() {
   return (
     <Provider>
       <Switch>
-        <Route exact path="/" component={ Login } />
-        <Route path="/carteira" component={ Wallet } />
+        <Route exact path="/trybe-wallet/" component={ Login } />
+        <Route path="/trybe-wallet/carteira" component={ Wallet } />
       </Switch>
     </Provider>
   );
