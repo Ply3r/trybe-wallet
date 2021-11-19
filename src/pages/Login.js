@@ -44,7 +44,7 @@ const Login = () => {
             data-testid="password-input"
             placeholder="Senha..."
           />
-          <Link to="/carteira">
+          <Link to="/trybe-wallet/carteira">
             <button
               onClick={ onButtonClick }
               disabled={ disable }
