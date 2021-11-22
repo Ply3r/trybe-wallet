@@ -64,7 +64,7 @@ const Form = ({ expense: { description, value, method, tag: tagReceive, currency
   };
 
   return (
-    <form className="form">
+    <form className={ `form ${isEditing ? 'editing' : ''}` }>
       <Inputs
         valor={ valor }
         setValor={ setValor }

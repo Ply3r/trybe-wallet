@@ -31,6 +31,10 @@ header {
   background-color: #001219;
 }
 
+.editing {
+  background-color: var(--main-color);
+}
+
 .valor-input {
   width: 5vw;
   height: 4vh;
